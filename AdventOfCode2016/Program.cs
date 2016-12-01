@@ -2,6 +2,7 @@
 
 namespace AdventOfCode2016
 {
+    // Copyright: Emil Péter Hegyi 2016
     class Program
     {
         static void Main(string[] args)
@@ -44,7 +45,10 @@ namespace AdventOfCode2016
             }
 
             RouteCalculator.Calculate(input);
+
             Console.ReadLine();
         }
     }
 }
+
+
